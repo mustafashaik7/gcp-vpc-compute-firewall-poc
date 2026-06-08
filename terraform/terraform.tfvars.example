@@ -1,0 +1,7 @@
+project_id     = "your-gcp-project-id"
+region         = "us-central1"
+zone           = "us-central1-a"
+source_ip_cidr = "YOUR_PUBLIC_IP/32"
+
+# Optional: set true only for a lab that explicitly needs public ping from anywhere.
+allow_external_icmp_from_anywhere = false
